@@ -3,6 +3,7 @@
 const myarray = ['marco@gmail.it', 'matteo@gmail.it', 'sara@gmail.it'];
 
 const mail = prompt('inserisci la tua mail');
+
  
 const lunghezzaArray = myarray.length;
 console.log(lunghezzaArray)
@@ -10,9 +11,7 @@ console.log(lunghezzaArray)
 for (let i=0; i<myarray.length; i++) {
 
     if (myarray[i] == (mail)) {
-        let login = true
-    }else {
-        let login = false
+         var login = true
     }
 }
 
