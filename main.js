@@ -7,8 +7,10 @@ const mail = prompt('inserisci la tua mail');
 const lunghezzaArray = myarray.length;
 console.log(lunghezzaArray)
 
-if (mail == myarray) {
-    alert('L mail inserita è corretta');
-} else {
-    alert("L mail inserita non è corretta");
+for ( let i=0; i<myarray.length; i++ ) {
+    if (myarray[i] == mail) {
+        alert("email inserita è corretta");
+    } else {
+        alert("email inserita non è corretta");
+    }
 }
